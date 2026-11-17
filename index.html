@@ -3,190 +3,52 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cailyn Seymour | Computer Science Student</title>
-<meta name="description" content="Cailyn Seymour, Computer Science student at the University of Oregon. Skills, projects, and links.">
+<title>Cailyn Seymour</title>
 <style>
-  :root {
-    --bg: #fbf8f4;
-    --card: #ffffff;
-    --text: #2a2430;
-    --muted: #6b6475;
-    --accent: #2f6f4f;
-    --accent-soft: #e3f0e8;
-    --border: #e6dfd6;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #17141b;
-      --card: #211d27;
-      --text: #f0ecf3;
-      --muted: #a79fb2;
-      --accent: #7fd1a1;
-      --accent-soft: #24352c;
-      --border: #332d3b;
-    }
-  }
-  * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    margin: 0;
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.6;
-  }
-  a { color: var(--accent); }
-  .wrap { max-width: 860px; margin: 0 auto; padding: 0 1.25rem; }
-  header { padding: 4rem 0 2rem; }
-  h1 { font-size: clamp(2rem, 6vw, 3rem); margin: 0 0 .25rem; line-height: 1.15; }
-  .tagline { color: var(--muted); font-size: 1.15rem; margin: 0 0 1.25rem; }
-  .links { display: flex; flex-wrap: wrap; gap: .6rem; }
-  .btn {
-    display: inline-block; padding: .5rem 1rem; border-radius: 999px;
-    border: 1px solid var(--accent); text-decoration: none; font-weight: 600;
-  }
-  .btn.primary { background: var(--accent); color: var(--bg); }
-  nav { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
-  nav .wrap { display: flex; flex-wrap: wrap; gap: 1.25rem; padding-top: .7rem; padding-bottom: .7rem; }
-  nav a { text-decoration: none; color: var(--muted); font-weight: 600; }
-  nav a:hover { color: var(--accent); }
-  section { padding: 2.5rem 0 .5rem; }
-  h2 { font-size: 1.5rem; margin: 0 0 1rem; }
-  .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
-  .card {
-    background: var(--card); border: 1px solid var(--border);
-    border-radius: 14px; padding: 1.1rem 1.2rem;
-  }
-  .card h3 { margin: 0 0 .35rem; font-size: 1.1rem; }
-  .card p { margin: 0 0 .6rem; color: var(--muted); }
-  .tags { display: flex; flex-wrap: wrap; gap: .4rem; margin: 0; padding: 0; list-style: none; }
-  .tags li {
-    background: var(--accent-soft); color: var(--accent);
-    padding: .15rem .65rem; border-radius: 999px; font-size: .85rem; font-weight: 600;
-  }
-  .skills dt { font-weight: 700; margin-top: .9rem; }
-  .skills dd { margin: .4rem 0 0; }
-  .item { margin-bottom: 1.1rem; }
-  .item h3 { margin: 0; font-size: 1.05rem; }
-  .item .meta { color: var(--muted); font-size: .92rem; margin: 0; }
-  footer { margin-top: 3rem; padding: 1.5rem 0 2.5rem; border-top: 1px solid var(--border); color: var(--muted); font-size: .9rem; }
+  body { max-width: 720px; margin: 2rem auto; padding: 0 1rem; font-family: Arial, sans-serif; line-height: 1.5; color: #222; }
+  h1, h2 { margin-bottom: .3rem; }
+  h2 { margin-top: 2rem; border-bottom: 1px solid #ccc; padding-bottom: .2rem; }
 </style>
 </head>
 <body>
 
-<header>
-  <div class="wrap">
-    <h1>Cailyn Seymour</h1>
-    <p class="tagline">Computer Science student at the University of Oregon. I like building things and learning new tools along the way.</p>
-    <div class="links">
-      <a class="btn primary" href="https://github.com/cailynseymourr">GitHub</a>
-      <a class="btn" href="mailto:cailyn@uoregon.edu">Email</a>
-    </div>
-  </div>
-</header>
+<h1>Cailyn Seymour</h1>
+<p>Computer Science student at the University of Oregon</p>
+<p>
+  <a href="https://github.com/cailynseymourr">GitHub</a> |
+  <a href="mailto:cailyn@uoregon.edu">cailyn@uoregon.edu</a>
+</p>
 
-<nav>
-  <div class="wrap">
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#experience">Experience</a>
-    <a href="#interests">Interests</a>
-  </div>
-</nav>
+<h2>About</h2>
+<p>
+  I'm a junior at the University of Oregon studying Computer Science. I enjoy picking up new
+  languages and tools, and I learn best by building something with them. I'm a member of the
+  Women in Computer Science Club and took part in a UO hackathon.
+</p>
 
-<main class="wrap">
+<h2>Technical Skills</h2>
+<ul>
+  <li><strong>Languages:</strong> Python, C, JavaScript</li>
+  <li><strong>Frameworks and libraries:</strong> React, Node.js, Flask, pandas, NumPy, Matplotlib</li>
+  <li><strong>Tools:</strong> Git, Docker, Google Cloud Platform</li>
+</ul>
 
-  <section id="about">
-    <h2>About</h2>
-    <p>
-      I'm a junior at the University of Oregon studying Computer Science. I enjoy
-      picking up new languages and tools, and I learn best by building something
-      with them. I'm also a member of the Women in Computer Science Club and took part
-      in a UO hackathon.
-    </p>
-  </section>
+<h2>Projects</h2>
+<!-- TODO: swap each link for the exact repo URL when you have it -->
+<ul>
+  <li><strong><a href="https://github.com/cailynseymourr/knot-spot">Knot Spot</a></strong> (React, JavaScript, Firebase, Python, Flask): a crochet website for storing patterns, tracking a yarn stash, and logging project progress, with AI features for predicting completion time and suggesting yarn.</li>
+  <li><strong><a href="https://github.com/cailynseymourr/sudoku-solver">Sudoku Solver</a></strong> (Python): a program that solves Sudoku puzzles.</li>
+  <li><strong><a href="https://github.com/cailynseymourr/Clusters-of-Fire">Clusters of Fire</a></strong> (Python): a wildfire data project from my CS 210 course.</li>
+  <li><strong><a href="https://github.com/cailynseymourr/proj4-brevets">Brevet Time Calculator</a></strong> (Flask, Ajax, Docker): a web app that calculates brevet control times, with automated tests.</li>
+  <li><strong><a href="https://github.com/cailynseymourr/proj3-jsa">Vocabulary Anagrams Game</a></strong> (Flask, jQuery, Docker): a word game that checks guesses on every keystroke.</li>
+  <li><strong><a href="https://github.com/cailynseymourr/proj2-pageserver">Python Pageserver</a></strong> (Python): a small web server that serves files and returns 403 and 404 errors.</li>
+</ul>
 
-  <section id="skills">
-    <h2>Technical Skills</h2>
-    <dl class="skills">
-      <dt>Languages</dt>
-      <dd><ul class="tags"><li>Python</li><li>C</li><li>JavaScript</li></ul></dd>
-      <dt>Frameworks &amp; Libraries</dt>
-      <dd><ul class="tags"><li>React</li><li>Node.js</li><li>Flask</li><li>pandas</li><li>NumPy</li><li>Matplotlib</li></ul></dd>
-      <dt>Tools &amp; Platforms</dt>
-      <dd><ul class="tags"><li>Git</li><li>Docker</li><li>Google Cloud Platform</li></ul></dd>
-    </dl>
-  </section>
-
-  <section id="projects">
-    <h2>Highlighted Projects</h2>
-    <div class="grid">
-
-      <!-- TODO: swap each href for the exact repo URL when you have it -->
-      <article class="card">
-        <h3>Knot Spot</h3>
-        <p>A crochet website for storing patterns, tracking a yarn stash, and logging project progress, with AI features for predicting completion time and suggesting yarn.</p>
-        <ul class="tags"><li>React</li><li>JavaScript</li><li>Firebase</li><li>Python</li><li>Flask</li></ul>
-        <p style="margin-top:.6rem"><a href="https://github.com/cailynseymourr">View on GitHub</a></p>
-      </article>
-
-      <article class="card">
-        <h3>Sudoku Solver</h3>
-        <p>A Python program that solves Sudoku puzzles.</p>
-        <ul class="tags"><li>Python</li></ul>
-        <p style="margin-top:.6rem"><a href="https://github.com/cailynseymourr">View on GitHub</a></p>
-      </article>
-
-      <article class="card">
-        <h3>Clusters of Fire</h3>
-        <p>A Python project on wildfire data from my CS 210 course.</p>
-        <ul class="tags"><li>Python</li></ul>
-        <p style="margin-top:.6rem"><a href="https://github.com/cailynseymourr">View on GitHub</a></p>
-      </article>
-
-      <article class="card">
-        <h3>Brevet Time Calculator</h3>
-        <p>A web app that calculates brevet control times, built with Flask and Ajax and run in Docker, with automated tests.</p>
-        <ul class="tags"><li>Flask</li><li>Ajax</li><li>Docker</li></ul>
-        <p style="margin-top:.6rem"><a href="https://github.com/cailynseymourr">View on GitHub</a></p>
-      </article>
-
-      <article class="card">
-        <h3>Vocabulary Anagrams Game</h3>
-        <p>A Flask word game that checks guesses on every keystroke using jQuery and Ajax.</p>
-        <ul class="tags"><li>Flask</li><li>jQuery</li><li>Docker</li></ul>
-        <p style="margin-top:.6rem"><a href="https://github.com/cailynseymourr">View on GitHub</a></p>
-      </article>
-
-      <article class="card">
-        <h3>Python Pageserver</h3>
-        <p>A small web server written with Python sockets that serves files and returns 403 and 404 errors.</p>
-        <ul class="tags"><li>Python</li><li>Sockets</li></ul>
-        <p style="margin-top:.6rem"><a href="https://github.com/cailynseymourr">View on GitHub</a></p>
-      </article>
-
-    </div>
-  </section>
-
-  <section id="experience">
-    <h2>Education &amp; Experience</h2>
-    <div class="item">
-      <h3>Technology Support Specialist</h3>
-      <p class="meta">University of Oregon &middot; September 2026 &ndash; Present</p>
-    </div>
-    <div class="item">
-      <h3>B.S. in Computer Science</h3>
-      <p class="meta">University of Oregon, Eugene &middot; September 2024 &ndash; June 2028 &middot; GPA 3.8</p>
-    </div>
-  </section>
-
-  
-</main>
-
-<footer>
-  <div class="wrap">&copy; 2026 Cailyn Seymour</div>
-</footer>
+<h2>Education and Experience</h2>
+<ul>
+  <li><strong>Technology Support Specialist</strong>, University of Oregon, September 2026 to present</li>
+  <li><strong>B.S. in Computer Science</strong>, University of Oregon, September 2024 to June 2028 (GPA 3.8)</li>
+</ul>
 
 </body>
 </html>
